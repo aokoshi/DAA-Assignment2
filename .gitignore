@@ -5,3 +5,5 @@ target/
 *.pdf
 REPORT.*
 tools/
+.local-history/
+SUBMISSION.txt
