@@ -1,0 +1,12 @@
+Java version: 17.0.20.1
+Java vendor: Microsoft
+JVM: OpenJDK 64-Bit Server VM
+OS: Windows 11 10.0
+Architecture: amd64
+Available processors: 12
+Maximum JVM heap bytes: 4238344192
+Seed: new Random(42) for each n; shared input arrays across structures/runs
+Per case: one discarded warm-up, then five measured fresh structures
+Timer: System.nanoTime; counters enabled during timing; no forced GC
+W1-W3 initial fill excluded; W4 inserts and extracts included
+W4 output buffer allocated and sorted-order validation performed outside timer
